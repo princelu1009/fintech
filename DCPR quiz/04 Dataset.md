@@ -27,15 +27,15 @@ Given a vector z = [1 3 5], what is its value after z-normalization?
 ### Q3. Missing value imputation (Table 1)
 Given the following dataset with missing values denoted by $X_i, i=1,2$:
 
-| Feature name\Data index | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|---|---|---|---|---|---|---|---|---|---|
-| Gender | ♂ | ♀ | ♂ | ♂ | ♀ | ♀ | ♀ | ♂ | ♂ |
-| Age | 15 | 10 | 25 | 65 | 45 | 11 | 55 | 20 | 50 |
-| Height (cm) | 160 | 130 | 158 | 179 | 164 | 148 | 168 | 154 | 132 |
-| Weight (kg) | 55 | 30 | 55 | 65 | $X_1$ | 35 | 55 | 85 | 95 |
-| Monthly income (k) | 2 | 1 | 30 | 120 | 80 | 2 | 100 | 30 | $X_2$ |
-| BloodType | A | B | O | AB | A | B | O | AB | B |
-| Class | 1 | 3 | 2 | 2 | 3 | 1 | 3 | 2 | 2 |
+| Feature name\Data index | 1   | 2   | 3   | 4   | 5     | 6   | 7   | 8   | 9     |
+| ----------------------- | --- | --- | --- | --- | ----- | --- | --- | --- | ----- |
+| Gender                  | ♂   | ♀   | ♂   | ♂   | ♀     | ♀   | ♀   | ♂   | ♂     |
+| Age                     | 15  | 10  | 25  | 65  | 45    | 11  | 55  | 20  | 50    |
+| Height (cm)             | 160 | 130 | 158 | 179 | 164   | 148 | 168 | 154 | 132   |
+| Weight (kg)             | 55  | 30  | 55  | 65  | $X_1$ | 35  | 55  | 85  | 95    |
+| Monthly income (k)      | 2   | 1   | 30  | 120 | 80    | 2   | 100 | 30  | $X_2$ |
+| BloodType               | A   | B   | O   | AB  | A     | B   | O   | AB  | B     |
+| Class                   | 1   | 3   | 2   | 2   | 3     | 1   | 3   | 2   | 2     |
 
 Find those missing values based on the following guidelines:
 1. Find $X_1$ based on same-gender average

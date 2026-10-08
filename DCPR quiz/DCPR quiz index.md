@@ -9,9 +9,9 @@ source: http://mirlab.org/jang/books/dcpr/quiz/
 
 | # | 主題 | 題數 |
 |---|---|---|
-| 1 | [[01 AM-GM inequality\|AM-GM inequality]] | 5 |
-| 2 | [[02 Clustering\|Clustering]] | 1 |
-| 3 | [[03 DP\|DP]] | 1 |
+| 1 | [[01 AM-GM inequality_1008\|AM-GM inequality]] | 5 |
+| 2 | [[02 Clustering_choice_1008\|Clustering]] | 1 |
+| 3 | [[03 DP_choice_1008\|DP]] | 1 |
 | 4 | [[04 Dataset\|Dataset]] | 6 |
 | 5 | [[05 Document classification\|Document classification]] | 6 |
 | 6 | [[06 Feature selection\|Feature selection]] | 5 |
