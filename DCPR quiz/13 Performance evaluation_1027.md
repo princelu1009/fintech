@@ -23,7 +23,7 @@ Building a model requires $2n$ seconds; evaluating requires $m$ seconds for $m$ 
 > 1. $1000\times9\times2 + 1000 = 19000$
 > 2. $1000\times999\times2 + 1000 = 1999000$
 
-### Q3. Computing time for cross validation
+### Q3. Computing time for cross validation(memorize)
 Tuning polynomial "order" from 10 values (starting from 2) with 5-fold CV. Training (order 2) on 4 folds takes 10 s, prediction on the remaining fold takes 2 s. Overall execution time for 10 values of "order"?
 1. Less than 100 seconds
 2. 100 – 300 seconds

@@ -12,18 +12,18 @@ source: http://mirlab.org/jang/books/dcpr/quiz/
 | 1 | [[01 AM-GM inequality_1008\|AM-GM inequality]] | 5 |
 | 2 | [[02 Clustering_choice_1008\|Clustering]] | 1 |
 | 3 | [[03 DP_choice_1008\|DP]] | 1 |
-| 4 | [[04 Dataset\|Dataset]] | 6 |
-| 5 | [[05 Document classification\|Document classification]] | 6 |
-| 6 | [[06 Feature selection\|Feature selection]] | 5 |
-| 7 | [[07 Gradient descent\|Gradient descent]] | 13 |
-| 8 | [[08 MLE\|MLE]] | 11 |
-| 9 | [[09 MLP\|MLP]] | 3 |
-| 10 | [[10 Math basics\|Math basics]] | 6 |
-| 11 | [[11 Optimization\|Optimization]] | 6 |
-| 12 | [[12 PCA\|PCA]] | 7 |
-| 13 | [[13 Performance evaluation\|Performance evaluation]] | 5 |
+| 4 | [[04 Dataset_1021\|Dataset]] | 6 |
+| 5 | [[05 Document classification_1021\|Document classification]] | 6 |
+| 6 | [[06 Feature selection_1021\|Feature selection]] | 5 |
+| 7 | [[07 Gradient descent_1027\|Gradient descent]] | 13 |
+| 8 | [[08 MLE_1028\|MLE]] | 11 |
+| 9 | [[09 MLP_1028\|MLP]] | 3 |
+| 10 | [[10 Math basics_1027\|Math basics]] | 6 |
+| 11 | [[11 Optimization_1027\|Optimization]] | 6 |
+| 12 | [[12 PCA_1021\|PCA]] | 7 |
+| 13 | [[13 Performance evaluation_1027\|Performance evaluation]] | 5 |
 | 14 | [[14 Performance index\|Performance index]] | 15 |
-| 15 | [[15 Random variables\|Random variables]] | 6 |
+| 15 | [[15 Random variables_1021\|Random variables]] | 6 |
 
 > [!warning] 缺圖的題目
 > 存下來的網頁沒有包含圖片，以下 7 題只寫了解題方法、沒有確定數值：

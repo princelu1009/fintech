@@ -29,7 +29,7 @@ Which of the following statements about genetic algorithms (GAs) is/are correct?
 > 3. ✅ 編碼方式決定 crossover / mutation 是否有意義，影響很大。
 > 4. ❌ GA 是隨機搜尋，有機會找到全域最佳，但**不保證**。
 
-### Q3. Lagrange multipliers
+### Q3. Lagrange multipliers(hard to compute memorize it)
 Find the maximum value of $f(x,y)=\sqrt{6-x^2-y^2}$ subject to $x+y=2$.
 
 > [!success]- 答案：$2$
