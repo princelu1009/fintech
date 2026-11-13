@@ -89,22 +89,27 @@ Types: Increasing ($x<y \Rightarrow f(x)\le f(y)$), Decreasing, Monotonically in
 > 都只是「不嚴格」的遞增/遞減，因為閾值落在兩個樣本之間時數值不變，曲線會有水平或垂直段。
 
 ### Q6. Properties of ROC, DET, PRC
-In a ROC plot, usually the waveform is stairwise. If you see a ROC curve with a slope, what can you conclude? *(原題附圖 `detRocPlotWithSlope01.png`)*
+In a ROC plot, usually the waveform is stairwise. If you see a ROC curve with a slope, what can you conclude?
+
+![[detRocPlotWithSlope01.png|360]]
 
 > [!success]- 答案
 > 有**正例與負例的 likelihood 相同（ties）**。閾值跨過這個分數時，TP 和 FP 同時增加，所以曲線出現斜線而不是一格一格的階梯。
+> - 圖中：FPR 每格 20%（N=5）、TPR 每格 33.3%（P=3）。(20%, 33.3%)→(40%, 66.7%) 的斜線代表有 1 個正例和 1 個負例的 likelihood 相同。
 
 ### Q7. PIs from confusion matrices
-Compute the following from the given confusion matrix *(原題附圖 `confusionMatrix.png`)*: Accuracy, TPR, TNR, FPR, FNR, Precision, F-measure (simplest fractions).
+Compute the following from the given confusion matrix: Accuracy, TPR, TNR, FPR, FNR, Precision, F-measure (simplest fractions).
 
-> [!warning] 原頁面圖片沒有一起存下來，無法算出數值。公式如下：
-> - Accuracy $= \frac{TP+TN}{TP+TN+FP+FN}$
-> - TPR（recall）$= \frac{TP}{TP+FN}$
-> - TNR（specificity）$= \frac{TN}{TN+FP}$
-> - FPR $= \frac{FP}{FP+TN} = 1 - \text{TNR}$
-> - FNR $= \frac{FN}{FN+TP} = 1 - \text{TPR}$
-> - Precision $= \frac{TP}{TP+FP}$
-> - F-measure $= \frac{2PR}{P+R} = \frac{2TP}{2TP+FP+FN}$
+![[confusionMatrix.png|240]]
+
+> [!success]- 答案（TP=30、FN=10、FP=20、TN=940，共 1000）
+> - Accuracy $= \frac{30+940}{1000} = \frac{97}{100}$
+> - TPR（recall）$= \frac{30}{30+10} = \frac{3}{4}$
+> - TNR $= \frac{940}{940+20} = \frac{47}{48}$
+> - FPR $= \frac{20}{960} = \frac{1}{48}$
+> - FNR $= \frac{10}{40} = \frac{1}{4}$
+> - Precision $= \frac{30}{30+20} = \frac{3}{5}$
+> - F-measure $= \frac{2TP}{2TP+FP+FN} = \frac{60}{90} = \frac{2}{3}$
 >
 > 註：題目把 FPR 寫成「miss rate」，但 miss rate 通常指 FNR，FPR 應為 false alarm rate。
 

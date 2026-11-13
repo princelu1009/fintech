@@ -98,7 +98,7 @@ Same assets as Q8, with $\rho_{12} = 0.2$. What are the weights at the minimum-v
 > $\mu = 0.2(0.8571) + 0.3(0.1429) = 0.2143$
 > $\sigma^2 = 0.8571^2(0.01) + 0.1429^2(0.04) + 2(0.8571)(0.1429)(0.004) = 0.009143$，$\sigma = 0.0956$
 
-### Q11. Slopes at various conditions
+### Q11. Slopes at various conditions(10/30 distraction)
 Asset 1: $\mu_1 = 0.2,\ \sigma_1 = 0.15$；Asset 2: $\mu_2 = 0.3,\ \sigma_2 = 0.25$。What are the slopes of the efficient frontiers when $\rho_{12} = 1$ and $-1$? (format "d.dd")
 
 > [!success]- 答案：ρ=1 → 1.00；ρ=−1 → 0.25
@@ -107,7 +107,7 @@ Asset 1: $\mu_1 = 0.2,\ \sigma_1 = 0.15$；Asset 2: $\mu_2 = 0.3,\ \sigma_2 = 0.
 > - $\rho = -1$：效率前緣從零風險點走到資產 2，斜率 $\frac{\mu_2 - \mu_1}{\sigma_1 + \sigma_2} = \frac{0.1}{0.4} = 0.25$。
 >   （零風險點：$w_1 = 0.625$，$\mu = 0.2375$，$\frac{0.3 - 0.2375}{0.25} = 0.25$ ✓）
 
-### Q12. Objective functions in portfolio optimization
+### Q12. Objective functions in portfolio optimization(10/30 distraction)
 For $n$ assets, $\mu = \boldsymbol\mu^T \mathbf w$，$\sigma^2 = \mathbf w^T \Sigma \mathbf w$。What objective functions (with suitable constraints) are commonly used?
 1. $\min_{\mathbf w} \mathbf w^T \Sigma \mathbf w$
 2. $\max_{\mathbf w} \boldsymbol\mu^T \mathbf w$

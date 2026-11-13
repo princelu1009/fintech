@@ -9,12 +9,12 @@ source: list.asp.html (Quiz questions collected by Roger)
 
 | # | 主題 | 題數 |
 |---|---|---|
-| 1 | [[01 DP\|DP for trading]] | 2 |
+| 1 | [[01 DP_1103\|DP for trading]] | 2 |
 | 2 | [[02 Financial quotient_1028\|Financial quotient]] | 6 |
-| 3 | [[03 IRR\|IRR]] | 5 |
+| 3 | [[03 IRR_1030\|IRR]] | 5 |
 | 4 | [[04 Mortgage_1029\|Mortgage]] | 2 |
 | 5 | [[05 Moving average_1029\|Moving average]] | 4 |
-| 6 | [[06 Portfolio optimization\|Portfolio optimization]] | 13 |
+| 6 | [[06 Portfolio optimization_1030\|Portfolio optimization]] | 13 |
 | 7 | [[07 Sharpe ratio_1029\|Sharpe ratio]] | 1 |
 | 8 | [[08 Stock_1029\|Stock]] | 6 |
 | 9 | [[09 Technical analysis_1029\|Technical analysis]] | 3 |
